@@ -48,7 +48,4 @@ breedSelect.addEventListener('change', async (event) => {
 });
 };
 
-window.onload = () => {
-    initApp();
-};
 
