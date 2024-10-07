@@ -1,0 +1,48 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf54;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.controls {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10 px;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 200px;
+    text-align: center;
+
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.notification {
+    position: fixed;
+    top: 20 px;
+    right: 20 px;
+    background-color:  #4caf54;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
